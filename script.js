@@ -32,6 +32,7 @@ function show(increase) {
 /* 04 - Criação da função para Exibir e criar Card */
 function showModal() {
   modalEl.innerHTML = ` 
+  <div class="modal-frame">
   <div class="modal-view">
     <div id="btnclosediv">
       <button onclick="modalClose()" id="btnclose">
@@ -58,7 +59,7 @@ function showModal() {
     <div id="sign">
       <button id="btnsign">Quero Assinar!</button>
     </div>
-  
+  </div>
   </div>
   `;
   modalEl.style.visibility = "visible";
